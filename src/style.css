@@ -1,0 +1,36 @@
+.nav-item .nav-link {
+  color: rgb(145, 108, 7);
+  padding: 10px 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  text-shadow: 10px 10px 10px 10px rgb(253, 215, 145);
+  font-size: 15px;
+}
+.nav-item {
+  margin-left: 30px;
+}
+.logo {
+  color: rgb(248, 213, 170) !important;
+  font-weight: 900 !important;
+  font-size: 45px !important;
+}
+
+.navi-background-colour {
+  background: rgb(192, 156, 111);
+}
+.list-section {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 995px) {
+  .nav-bar-1 {
+    display: none;
+  }
+}
+@media (min-width: 996px) {
+  .nav-sec-bar {
+    display: none;
+  }
+}
