@@ -97,7 +97,7 @@ button:hover {
 }
 
 .home .img img {
-  width: 92%;
+  width: 100%;
   animation: c 5s linear infinite;
 }
 @keyframes c {
@@ -106,7 +106,7 @@ button:hover {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(100px);
+    transform: translateY(30px);
   }
 }
 @media (max-width: 988px) {
