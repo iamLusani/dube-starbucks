@@ -148,6 +148,31 @@ button:hover {
     margin-top: 55px !important;
   }
 }
+
+#top-icons {
+  margin-top: 55px;
+}
+
+.second-heading {
+  text-align: center;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 2px 3px black;
+}
+i img {
+  width: 90px;
+}
+
+h3 {
+  font-size: 20px !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800 !important;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
 :root {
   ---colour-1: #f5cca0;
   ---colour-2: #e48f45;
