@@ -284,6 +284,83 @@ h3 {
     height: 22px;
   }
 }
+#top-cards {
+  margin-top: 50px;
+}
+#top-cards .card {
+  background: var(---colour-4);
+  transition: 0.66s ease;
+  cursor: pointer;
+}
+#top-cards .card:hover {
+  transform: translateY(10px);
+}
+#About {
+  margin-top: 100px;
+}
+#About h1 {
+  border-bottom: 2px solid var(---colour-5);
+  font-size: 75px;
+  margin-left: 125px;
+  text-align: center;
+
+  background: #f0b128; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f0b128,
+    #965b08
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f0b128,
+    #965b08
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#About h2 {
+  text-align: center;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 2px black;
+
+  background: var(---colour-3); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e7ce97,
+    #1b1001
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eed295,
+    #472a02
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+#About p {
+  font-size: 25px !important;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#readmore {
+  width: 200px;
+  height: 32px;
+  background: transparent;
+  border: 2px solid var(---colour-4);
+  color: var(---colour-6);
+  font-weight: 800;
+  letter-spacing: 3px;
+  transition: 500ms ease-out;
+}
+
+#readmore:hover {
+  background-color: var(---colour-3);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
 
 :root {
   ---colour-1: #f5cca0;
