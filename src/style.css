@@ -223,6 +223,16 @@ h3 {
     margin-top: 50px;
   }
 }
+.h1-frappe {
+  font-size: 33px;
+}
+#drinks .card {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+#drinks .card:hover {
+  background-color: #e3d18a;
+}
 
 :root {
   ---colour-1: #f5cca0;
