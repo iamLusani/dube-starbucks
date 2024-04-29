@@ -12,7 +12,7 @@
 .logo {
   color: rgb(240, 223, 202) !important;
   font-weight: 900 !important;
-  font-size: 45px !important;
+  font-size: 35px !important;
 }
 
 .navi-background-colour {
@@ -360,6 +360,109 @@ h3 {
   background-color: var(---colour-3);
   color: white;
   text-shadow: 1px 1px 1px black;
+}
+@media (max-width: 1000px) {
+  #About p {
+    font-size: 15px !important;
+  }
+  #readmore {
+    width: 150px;
+    height: 22px;
+  }
+  #About h2 {
+    font-size: 25px !important;
+  }
+  #About h1 {
+    font-size: 35px !important;
+    border: none;
+  }
+  #readmore {
+    font-size: 13px !important;
+  }
+}
+
+#contact {
+  margin-top: 10px;
+  border: 4px solid var(---colour-3);
+}
+#h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 800;
+  font-family: cursive;
+  border-bottom: 1px solid var(---colour-7);
+  text-shadow: 1px 2px 3px var(---colour-1);
+}
+#contact h3 {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 800;
+  font-family: cursive;
+  text-shadow: 1px 2px 3px var(---colour-1);
+}
+#contact input {
+  width: 500px;
+  height: 42px;
+  margin-top: 20px;
+  background: var(---colour-3);
+  border: none;
+  border-radius: 5px;
+}
+
+#contact ::placeholder {
+  color: #080500;
+  font-family: cursive;
+  padding: 10px;
+  font-weight: 800;
+}
+
+#buttenMsg {
+  margin-top: 20px;
+  width: 200px;
+  height: 32px;
+  background-color: transparent;
+  border: 1px solid var(---colour-7);
+  font-weight: 800;
+}
+#buttenMsg:hover {
+  color: wheat;
+  background: var(---colour-6);
+}
+#contact i {
+  color: var(---colour-4);
+  font-size: 20px;
+  margin-top: 30px;
+}
+#contact span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 769px) {
+  #contact input {
+    width: 250px;
+    height: 32px;
+    margin-top: 10px;
+  }
+
+  #contact i {
+    color: var(---colour-4);
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1075px) {
+  #contact input {
+    width: 250px;
+    height: 22px;
+    margin-top: 10px;
+  }
+
+  #contact i {
+    color: var(---colour-4);
+    font-size: 15px;
+    margin-top: 10px;
+  }
 }
 
 :root {
