@@ -465,6 +465,14 @@ h3 {
   }
 }
 
+.footer-top {
+  margin-top: 100px;
+  background-color: var(---colour-4);
+}
+.footer-top h4 {
+  margin-top: 50px;
+}
+
 :root {
   ---colour-1: #f5cca0;
   ---colour-2: #e48f45;
